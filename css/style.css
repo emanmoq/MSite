@@ -44,7 +44,7 @@ h1{
 .redcircle{
     position: absolute;
     left:0;
-    bottom: -170px;
+    bottom: -18%;
 }
 .white{
     padding-top: 90px;
@@ -431,4 +431,28 @@ color:white;
 }
 .social a i:hover{
   color: #fb3b64;
+}
+.carousel-control-next i{
+position: absolute;
+color:#08a6e4;
+bottom:-30px;
+font-size:20pt;
+left:-300px;
+}
+.carousel-control-prev i{
+    position: absolute;
+    color:#08a6e4;
+    bottom:-30px;
+    font-size:20pt;
+    right:-300px;
+ }
+ .carousel-control-prev i:hover{
+  color: #fb3b64;
+ }
+ .carousel-control-next i:hover{
+    color: #fb3b64;
+   }
+  
+.carouselExampleFade{
+    position:relative;
 }
